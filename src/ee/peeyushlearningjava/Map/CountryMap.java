@@ -19,5 +19,8 @@ public class CountryMap {
         String userCountry = input.next();
 
         System.out.printf("Capital of %s is: %s", userCountry, countryMap.get(userCountry));
+
+        TestReturnString callReturnString = new TestReturnString();
+        System.out.println("\n" + callReturnString.returnString() + " in Bharat");
     }
 }
